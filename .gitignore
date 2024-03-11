@@ -1,6 +1,7 @@
 .venv/
 Notebooks/Archive/
-Data/
+*.csv
+*.npy
 
 *.pyc
 *.pyo
