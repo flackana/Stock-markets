@@ -1,0 +1,10 @@
+.venv/
+Notebooks/Archive/
+Data/
+
+*.pyc
+*.pyo
+__pycache__/
+
+*.env
+*.log
