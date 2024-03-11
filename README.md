@@ -23,15 +23,16 @@ The goal is to estimate the main direction that will occur during the last two h
 ## Getting Started
 
 1. Clone this repo
-2. Raw Data is being kept in Data/ folder and can be downloaded from: https://challengedata.ens.fr/challenges/84
+2. Run ```pip install -r requirements.txt``` to install required packages.
+3. Raw Data is being kept in Data/ folder and can be downloaded from: https://challengedata.ens.fr/challenges/84
     
-3. Data processing/transformation scripts are being kept in Scripts/ folder
+4. Data processing/transformation scripts are being kept in Scripts/ folder
 
-4. Run ``` python3 Scripts/Data_cleaning.py``` to get clean data and save them in Data/Data_clean folder.
-5. * Run ```python3 Scripts/feature_engeenering_xgb.py``` to prepare data for xgb model.
+5. Run ``` python3 Scripts/Data_cleaning.py``` to get clean data and save them in Data/Data_clean folder.
+6. * Run ```python3 Scripts/feature_engeenering_xgb.py``` to prepare data for xgb model.
    * Run ```python3 Scripts/feature_engeneering_RNN.py``` to prepare data for RNN model.
    
-6. * Run XGB model by ```python3 Scripts/xgboost_run.py```.
+7. * Run XGB model by ```python3 Scripts/xgboost_run.py```.
    * Run RNN model by ```python3 Scripts/RNN_run.py```.
 
 ## Notebooks
